@@ -1,2 +1,2 @@
-# practice_website
-This is just for practice
+# portfolio_website
+This is my porfolio website.
