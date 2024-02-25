@@ -1,0 +1,29 @@
+* {
+    background-color: black;
+    color: white;
+}
+
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding:  0;
+}
+nav ul li {
+    display: inline;
+    margin-right:  10px;
+}
+
+.logo .title {
+    display: inline;
+}
