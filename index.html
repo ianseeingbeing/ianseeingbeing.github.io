@@ -9,28 +9,40 @@
 </head>
 <body>
     <header>
-        <div class="logo">
+        <div id="logo">
             <img src="images/red-cube.png">
         </div>
-        <h1 class="title">Ian's Website</h1>
+        <h1 id="headerTitle">Ian</h1>
         <nav>
             <ul>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <!-- <div class="search">
             <input type="search" placeholder="search here">
         </div>  -->
     </header>
-
-    <div class="center">
-        
+    <div id="projects">
+        <a href="pages/dice.html">
+            <div class="project" id="diceProject">
+                <img class="projectIcon" src="images/dice/Side1.svg"> 
+                <br>
+                <p class="projectLabel">Dice Project</p>
+            </div>
+        </a>
+        <a href="pages/funny.html">
+            <div class="project" id="funnyProject">
+                <img class="projectIcon" src="images/empty-square.svg"> 
+                <br>
+                <p class="projectLabel">Silly Little Video</p>
+            </div>
+        </a>
     </div>
 
-
     <footer> 
-    </footer> 
-    <!-- <script href="script.js"></script> -->
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
