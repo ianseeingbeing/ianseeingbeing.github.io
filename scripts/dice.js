@@ -59,7 +59,11 @@ function sumRolls(rolls) {
 }
 
 function meanRolls(rolls) {
-    return sumRolls(rolls) / rolls.length; 
+    let mean = sumRolls(rolls) / rolls.length; 
+
+    mean = Math.floor(mean * 1000) / 1000;
+
+    return mean;
 }
 
 function medianRolls(rolls) {

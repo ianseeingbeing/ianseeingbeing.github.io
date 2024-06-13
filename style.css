@@ -20,6 +20,10 @@ header {
     align-items: center;
 }
 
+h1 {
+    font-family: "Zen Dots";
+}
+
 nav {
     margin-right: 15px;
 }
