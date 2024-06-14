@@ -70,11 +70,40 @@ a {
 
 #hambergerIcon {
     margin-right: 15px;
+    margin-left: 15px;
+    max-width: 35px;
+    max-height: 35px;
+}
+
+#hambergerIcon:hover {
+    scale: 1.05;
 }
 
 #hambergerIcon img {
-    padding: 3px;
     background-color: var(--header-bg-color);
     width: 35px;
     height: 35px;
+}
+
+.hambergerMenu {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: white;
+    color:black;
+    z-index: 6;
+    border-radius: .5em;
+    box-shadow: var(--shadow);
+}
+
+.hambergerMenu ul {
+    list-style-type: none;
+    width: 100px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.hambergerMenu ul li {
+    margin: 10px 0px;
 }
