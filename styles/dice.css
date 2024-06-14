@@ -1,12 +1,12 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(236, 236, 236);
+    background-color: var(--body-bg-color);
 }
 
 #diceForm {
-    background-color: white;
+    background-color: var(--container-bg-color);
     border-radius: 15px;
-    box-shadow: 0px 10px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
     margin: 30px auto;
     text-align: center;
     padding: 15px;
