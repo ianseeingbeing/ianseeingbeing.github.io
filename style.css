@@ -89,7 +89,8 @@ a {
     position: fixed;
     top: 100px;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-70px, 0px);
+    transform-origin: center;
     background-color: white;
     color:black;
     z-index: 6;
