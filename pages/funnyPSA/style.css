@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    max-width: 90vw;
+}
+
+#funnyVideo {
+    max-width: 90vw;
+}

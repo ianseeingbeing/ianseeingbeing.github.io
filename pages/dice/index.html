@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+            rel="stylesheet"
+        />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dice Roller</title>
+        <link rel="stylesheet" href="../../global.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <form id="diceForm" class="container">
+            <h1>Dice Roller</h1>
+            <label for="numDice"># of dice:</label>
+            <input type="number" id="numDice" value="1" min="1" max="10000" />
+            <button type="button" id="rollBtn">Roll</button>
+
+            <h2>Stats</h2>
+            <div id="statsDiv">
+                <p id="sum">Sum: --</p>
+                <p id="mean">Mean: --</p>
+                <p id="median">Meadian: --</p>
+                <p id="mode">Mode: --</p>
+            </div>
+
+            <h2>Rolls</h2>
+            <div id="rollsDiv">
+                <p id="rollResults">--</p>
+            </div>
+
+            <hr />
+            <div id="diceImages" class="content"></div>
+        </form>
+
+        <script src="script.js"></script>
+    </body>
+</html>

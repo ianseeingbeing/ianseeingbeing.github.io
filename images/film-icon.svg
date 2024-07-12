@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="84.056602mm"
+   height="84.056595mm"
+   viewBox="0 0 84.056602 84.056595"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-48.682782,-85.807783)">
+    <g
+       id="g3">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+         id="rect1"
+         width="84.056602"
+         height="84.056602"
+         x="48.682785"
+         y="85.807777"
+         ry="10.160481" />
+      <g
+         id="g2">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect2-61"
+           width="22.591722"
+           height="8.4056597"
+           x="54.216419"
+           y="90.9478"
+           ry="4.2028298" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect2-61-2"
+           width="22.591722"
+           height="8.4056597"
+           x="79.463806"
+           y="90.9478"
+           ry="4.2028298" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect2-61-7"
+           width="22.591722"
+           height="8.4056597"
+           x="104.7112"
+           y="90.9478"
+           ry="4.2028298" />
+      </g>
+      <g
+         id="g2-2"
+         transform="translate(0,66.185414)">
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect2-61-8"
+           width="22.591722"
+           height="8.4056597"
+           x="54.216419"
+           y="90.9478"
+           ry="4.2028298" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect2-61-2-9"
+           width="22.591722"
+           height="8.4056597"
+           x="79.463806"
+           y="90.9478"
+           ry="4.2028298" />
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
+           id="rect2-61-7-7"
+           width="22.591722"
+           height="8.4056597"
+           x="104.7112"
+           y="90.9478"
+           ry="4.2028298" />
+      </g>
+      <path
+         id="path2"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round"
+         d="M 107.58665,128.24334 78.53624,142.56395 V 113.92273 Z" />
+    </g>
+  </g>
+</svg>
