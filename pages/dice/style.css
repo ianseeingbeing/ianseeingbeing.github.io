@@ -1,7 +1,7 @@
 h1 {
     font-family: "Limelight";
     font-size: 32px;
-    color: #f43866ff;
+    color: #000000;
 }
 
 p {
@@ -10,7 +10,10 @@ p {
 }
 
 input {
-    border-width: 4px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
 }
 
 .dice {
@@ -18,10 +21,10 @@ input {
 }
 
 #diceForm {
-    border-radius: 15px;
     margin: 30px auto;
     text-align: center;
-    max-width: 450px;
+    max-width: 500px;
+    width: 85vw;
 }
 
 #diceForm label {
@@ -35,10 +38,24 @@ input {
 }
 
 #rollBtn {
-    font-size: 1em;
+    font-family: "Limelight";
+    font-size: 20px;
+    color: #ecb8ff;
     border-style: hidden;
     padding: 5px 10px;
-    border-radius: 0.5em;
+    background-color: #aa45fa;
+    box-shadow: 0px 4px #7c27e7;
+    margin-top: 22px;
+    margin-bottom: 4px;
+    width: 80px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+#rollBtn:active {
+    box-shadow: 0px 0px black;
+    margin-top: 26px;
+    margin-bottom: 0px;
 }
 
 #numDice {

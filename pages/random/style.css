@@ -14,34 +14,24 @@ body {
 }
 
 button {
-    position: absolute;
-    z-index: 99;
-    left: calc(50vw - 200px);
-    top: 50vh;
-
-    background-color: #f55943;
-    color: white;
+    background-color: #aa45fa;
+    color: #ecb8ff;
     font-family: "Limelight";
-    font-weight: 600;
     font-size: 50px;
     padding: 15px;
     border-width: 0;
     border-radius: 0;
-    box-shadow: 0px 10px #e73e27;
+    box-shadow: 0px var(--button-shadow-length) #7c27e7;
     width: 400px;
+    margin-top: 15px;
 
     transition: box-shadow 0ms;
     transition: margin-top 0ms;
 }
 
-button:hover {
-    box-shadow: 0px 8px #e73e27;
-    margin-top: 2px;
-}
-
 button:active {
-    box-shadow: 0px 4px #e73e27;
-    margin-top: 6px;
+    box-shadow: 0px 0px #e73e27;
+    margin-top: calc(var(--button-shadow-length) + 15px);
 }
 
 p {
