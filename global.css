@@ -1,3 +1,7 @@
+/*
+    display: "Limelight"
+    regular: "Libre Franklin", "Livvic"
+*/
 @import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Limelight&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
 
 :root {
@@ -13,8 +17,79 @@
 }
 
 body {
-    font-family: "Livvic", "Libre Franklin", sans-serif, serif;
+    font-family: "Libre Franklin", "Livvic", sans-serif, serif;
     background-color: var(--body-bg-color);
+    margin: 0;
+}
+
+h1 {
+    font-family: "Limelight";
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    background-color: var(--header-bg-color);
+    box-shadow: var(--shadow);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    height: var(--header-height);
+    border-bottom: #000000 solid 4px;
+}
+
+.headerDivider {
+    width: 12px;
+    height: auto;
+}
+
+.headerBtn {
+    font-family: "Limelight";
+    font-size: 24px;
+    z-index: 90;
+    margin-top: 13px;
+    padding: 0;
+    height: 48px;
+
+    border: 0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+
+    transition: 0ms;
+}
+
+.headerBtn:active {
+    margin-top: calc(var(--button-shadow-length) + 13px);
+}
+
+#menuBtn {
+    box-shadow: 0px var(--button-shadow-length) #e72783;
+    color: #ffaeed;
+    background-color: #f54399;
+    width: 48px;
+    padding: 5px;
+}
+
+#menuBtn:active {
+    box-shadow: 0px 0px #000000;
+}
+
+#menuBtn img {
+    width: 90%;
+    height: auto;
+}
+
+#actionBtn {
+    box-shadow: 0px var(--button-shadow-length) #e73e27;
+    color: #ffc2ae;
+    background-color: #f55943;
+    width: 120px;
+}
+
+#actionBtn:active {
+    box-shadow: 0px 0px #000000;
 }
 
 .container {

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 426.13611 323.02524"
+   class="logo-3LF899"
+   version="1.1"
+   id="svg22"
+   sodipodi:docname="discord-logo.svg"
+   width="426.13611"
+   height="323.02524"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:export-filename="C:\Users\alex\sites\discord-logo-0.png"
+   inkscape:export-xdpi="561.73712"
+   inkscape:export-ydpi="561.73712"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata28">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs26" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="838"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="0.58450359"
+     inkscape:cx="517.06493"
+     inkscape:cy="299.05118"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g20"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g20"
+     style="fill:#5865f2;fill-opacity:1"
+     transform="matrix(5.5268293,0,0,5.5268293,-30.83439,626.76267)">
+    <path
+       d="m 70.945701,-108.49415 c -5.026407,-2.29889 -10.364542,-3.97437 -15.936478,-4.90951 -0.701394,1.20791 -1.480722,2.84439 -2.02625,4.13023 -5.926404,-0.85723 -11.810069,-0.85723 -17.654769,0 -0.545529,-1.28584 -1.363822,-2.92232 -2.02625,-4.13023 -5.610775,0.93514 -10.948913,2.61062 -15.940249,4.90951 -10.0917773,14.884386 -12.8192983,29.418086 -11.4555413,43.756945 6.7018733,4.870541 13.1700353,7.831983 19.5251433,9.780299 1.558578,-2.104182 2.961316,-4.36423 4.169222,-6.740925 -2.298913,-0.857259 -4.480927,-1.90935 -6.58501,-3.156273 0.545504,-0.389412 1.091033,-0.818042 1.59757,-1.246672 12.702398,5.805733 26.460787,5.805733 39.007191,0 0.545528,0.42863 1.052093,0.85726 1.597621,1.246672 -2.104186,1.246923 -4.28605,2.299014 -6.585056,3.156273 1.207949,2.376695 2.610742,4.636743 4.169142,6.740925 6.351265,-1.948316 12.858392,-4.909758 19.525156,-9.780299 1.675294,-16.598656 -2.653486,-31.015457 -11.381442,-43.756945 z m -39.591812,34.912089 c -3.81855,0 -6.935707,-3.467753 -6.935707,-7.714833 0,-4.24709 3.039224,-7.715094 6.935707,-7.715094 3.857416,0 7.013438,3.468004 6.935505,7.715094 0,4.24708 -3.078089,7.714833 -6.935505,7.714833 z m 25.603648,0 c -3.818702,0 -6.939777,-3.467753 -6.939777,-7.714833 0,-4.24709 3.043146,-7.715094 6.939777,-7.715094 3.857414,0 7.013443,3.468004 6.935507,7.715094 0,4.24708 -3.039121,7.714833 -6.935507,7.714833 z"
+       id="path2-2"
+       style="fill:#000000;fill-opacity:1;stroke-width:2.51396"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="../Pictures/Logos/discord.svg"
+       inkscape:export-xdpi="90.112053"
+       inkscape:export-ydpi="90.112053" />
+  </g>
+</svg>

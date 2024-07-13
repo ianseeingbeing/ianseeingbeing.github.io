@@ -5,72 +5,17 @@ body {
     margin: 0;
 }
 
-header {
-    background-color: var(--header-bg-color);
-    box-shadow: var(--shadow);
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    height: var(--header-height);
-}
-
 a {
     text-decoration: none;
 }
 
-button:hover {
-    cursor: pointer;
-}
-
-#blackBar {
-    position: absolute;
-    z-index: 80;
-    background-color: black;
-    height: 4px;
-    margin-top: calc(var(--header-height) - 4px);
-    width: 100vw;
-}
-
-.headerBtn {
-    height: 48px;
-    border: 0;
-    margin-top: 9px;
-    z-index: 90;
-    font-family: "Limelight";
-    font-size: 24px;
-    transition: 0ms;
-}
-
-.headerBtn:active {
-    margin-top: calc(var(--button-shadow-length) + 9px);
-    box-shadow: none;
-}
-
-#aboutMeBtn {
-    box-shadow: 0px var(--button-shadow-length) #e73e27;
-    color: #ffc2ae;
-    background-color: #f55943;
-    width: 100px;
-}
-
-#menuBtn {
-    box-shadow: 0px var(--button-shadow-length) #e72783;
-    color: #ffaeed;
-    background-color: #f54399;
-    width: 48px;
-}
-
-#menuBtn img {
-    width: 90%;
-    height: auto;
-}
-
-#projects {
+.projectGrid {
     max-width: 700px;
+    width: 100vw;
     margin: 50px auto;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-auto-flow: column dense;
 }
 
 .project {

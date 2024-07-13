@@ -1,11 +1,16 @@
 h1 {
-    font-family: "Zen Dots";
+    font-family: "Limelight";
+    font-size: 32px;
     color: #f43866ff;
 }
 
 p {
     margin: 15px auto;
     max-width: 300px;
+}
+
+input {
+    border-width: 4px;
 }
 
 .dice {

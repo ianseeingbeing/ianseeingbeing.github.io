@@ -1,0 +1,19 @@
+#aboutContainer {
+    max-width: 500px;
+    height: 700px;
+    margin: 50px auto;
+    display: grid;
+    justify-content: center;
+}
+
+#aboutContainer div {
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+#aboutContainer div img {
+    height: 35px;
+    width: auto;
+    margin: 0 8px;
+}
