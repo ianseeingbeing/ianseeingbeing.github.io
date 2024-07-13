@@ -8,45 +8,16 @@
 
         <link rel="stylesheet" href="global.css" />
         <link rel="stylesheet" href="style.css" />
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
-            rel="stylesheet"
-        />
     </head>
     <body>
         <header>
-            <div id="logo">
-                <img src="images/red-cube.png" />
-            </div>
-            <h1 id="headerTitle">Ian</h1>
-
-            <input type="checkbox" id="hambergerToggle" hidden />
-            <label for="hambergerToggle">
-                <div id="hambergerIcon">
-                    <img
-                        id="hambergerIconClosed"
-                        src="images/hamburger-icon-closed.svg"
-                    />
-                    <img
-                        id="hambergerIconOpen"
-                        src="images/hamburger-icon-open.svg"
-                        hidden
-                    />
-                </div>
-            </label>
+            <div id="blackBar"></div>
+            <button class="headerBtn" id="aboutMeBtn">Ian</button>
+            <button class="headerBtn" id="menuBtn">
+                <img src="images/drop-down-triangle.svg" />
+            </button>
+            <div id="blackBar"></div>
         </header>
-
-        <nav class="hambergerMenu" id="hambergerMenu" hidden>
-            <div id="hambergerLinks">
-                <ul>
-                    <li><a href="pages/about/index.html">About</a></li>
-                    <li><a href="pages/contact/index.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
 
         <div id="projects">
             <a href="pages/dice/index.html">
@@ -75,8 +46,6 @@
                 </div>
             </a>
         </div>
-
-        <footer></footer>
 
         <script src="index.js"></script>
     </body>
