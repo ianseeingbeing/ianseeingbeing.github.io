@@ -20,7 +20,7 @@ rollBtn.onclick = function () {
         diceImg.id = `diceRoll${i}`;
 
         let diceRoll = Math.floor(Math.random() * 6 + 1);
-        diceImg.src = `../../images/dice/Side${diceRoll}.svg`;
+        diceImg.src = `../../images/dice/purple/Dice${diceRoll}.svg`;
 
         diceRolls.push(diceRoll);
         diceImgs.push(diceImg);

@@ -7,23 +7,27 @@ body {
     flex-direction: column;
     align-items: center;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     max-width: 500px;
+    width: 85vw;
     padding-top: 100px;
-    height: 50vh;
+    height: 400px;
 }
 
 button {
-    background-color: #aa45fa;
-    color: #ecb8ff;
+    background-color: var(--purple);
+    box-shadow: 0px var(--button-shadow-length) var(--purple-dark);
+    color: var(--purple-light);
     font-family: "Limelight";
     font-size: 50px;
     padding: 15px;
     border-width: 0;
     border-radius: 0;
-    box-shadow: 0px var(--button-shadow-length) #7c27e7;
-    width: 400px;
+    width: 350px;
     margin-top: 15px;
+
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 
     transition: box-shadow 0ms;
     transition: margin-top 0ms;
