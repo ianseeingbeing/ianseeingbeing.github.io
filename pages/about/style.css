@@ -30,7 +30,7 @@ p {
     height: 35px;
     width: auto;
     scale: 1;
-    transition: scale 100ms;
+    transition: scale 150ms ease;
 }
 
 #socials img:hover {
