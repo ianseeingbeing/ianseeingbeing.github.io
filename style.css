@@ -10,24 +10,26 @@ a {
 }
 
 .projectGrid {
-    max-width: 700px;
+    max-width: 600px;
     width: 100vw;
     margin: 50px auto;
-    text-align: center;
-    display: grid;
-    grid-auto-flow: column dense;
+    display: flex;
+    justify-content: center;
 }
 
 .project {
     background-color: var(--container-bg-color);
-    padding: 30px;
-    margin: auto 15px;
-    border-radius: 0.5em;
-    box-shadow: var(--shadow);
-    transition: scale 0.2s ease;
     color: black;
-    width: 120px;
-    height: 150px;
+    padding: 0;
+    box-shadow: var(--shadow);
+    border: none;
+    margin: auto 15px;
+    border-radius: 8px;
+
+    width: 180px;
+    height: 240px;
+
+    transition: scale 0.2s ease;
 }
 
 .project:hover {
@@ -35,13 +37,32 @@ a {
 }
 
 .projectIcon {
-    max-width: 100px;
-    max-height: 100px;
-    width: 100px;
-    height: 100px;
+    margin: 35px;
+    margin-bottom: 0px;
+    width: 110px;
+    height: 110px;
     border-radius: 8px;
 }
 
 .projectLabel {
     font-size: 1em;
+    display: flex;
+    justify-content: center;
 }
+
+/* @keyframes moveAround {
+    0% {
+        transform: translateX(200vw);
+    }
+    100% {
+        transform: translateX(-200vw);
+    }
+}
+
+#scrollContainer img {
+    position: absolute;
+    top: 90vh;
+    height: 25px;
+    box-shadow: 0px 6px 8px yellowgreen;
+    animation: moveAround linear infinite 40s;
+} */

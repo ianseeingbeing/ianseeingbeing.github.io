@@ -1,20 +1,38 @@
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Libre Franklin";
+    font-size: 16px;
+}
+
 #aboutContainer {
     max-width: 500px;
     width: 85vw;
-    height: 700px;
     margin: 50px auto;
-    display: grid;
-    justify-content: center;
-}
-
-#aboutContainer div {
-    height: 35px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-#aboutContainer div img {
+#socials {
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+#socials a {
+    margin: 0px 8px;
+}
+
+#socials img {
     height: 35px;
     width: auto;
-    margin: 0 8px;
+    scale: 1;
+    transition: scale 100ms;
+}
+
+#socials img:hover {
+    scale: 1.1;
 }
