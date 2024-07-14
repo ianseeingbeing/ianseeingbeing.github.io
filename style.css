@@ -15,6 +15,7 @@ a {
     margin: 50px auto;
     display: flex;
     justify-content: center;
+    transition: filter 500ms ease;
 }
 
 .project {
