@@ -2,9 +2,7 @@ const randomButton = document.getElementById("randomBtn");
 
 let websites = [
     "https://libraryofbabel.info/",
-    "https://www.wikipedia.org/",
     "https://creativecommons.org/",
-    "https://kernel.org/",
     "https://findtheinvisiblecow.com/",
     "https://papertoilet.com/",
     "https://pointerpointer.com/",
@@ -15,9 +13,10 @@ let websites = [
     "https://quickdraw.withgoogle.com/",
     "https://www.ocearch.org/tracker/?list=",
     "https://monkeytype.com/",
+    "https://killedbygoogle.com/",
 ];
 
 randomButton.onclick = function () {
-    window.location.href =
+    document.getElementById("randomBtnLink").href =
         websites[Math.floor(Math.random() * websites.length)];
 };

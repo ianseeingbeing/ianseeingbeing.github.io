@@ -1,0 +1,17 @@
+@import url(../../global.css);
+
+body {
+    background-color: var(--body-bg-color);
+}
+
+#canvasContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#whiteboard {
+    background-color: white;
+    border: 4px solid #000000;
+}

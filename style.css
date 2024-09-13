@@ -1,3 +1,9 @@
+@import url("./global.css");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monoton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap");
+
 body {
     background-color: var(--body-bg-color);
     color: white;
@@ -9,23 +15,15 @@ a {
     text-decoration: none;
 }
 
-.projectGrid {
-    max-width: 600px;
-    width: 100vw;
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;
-    transition: filter 500ms ease;
-}
-
 .project {
+    font-family: "Martian Mono";
     background-color: var(--container-bg-color);
     color: black;
     padding: 0;
     box-shadow: var(--shadow);
-    border: none;
+    border: 2px thick;
+    border-radius: 0px;
     margin: auto 15px;
-    border-radius: 8px;
 
     width: 180px;
     height: 240px;
@@ -51,19 +49,87 @@ a {
     justify-content: center;
 }
 
-/* @keyframes moveAround {
-    0% {
-        transform: translateX(200vw);
-    }
-    100% {
-        transform: translateX(-200vw);
-    }
+#diceProject {
+    position: absolute;
+    top: 800px;
+    left: calc(40vw - 90px);
 }
 
-#scrollContainer img {
+#randomWebsiteProject {
     position: absolute;
-    top: 90vh;
-    height: 25px;
-    box-shadow: 0px 6px 8px yellowgreen;
-    animation: moveAround linear infinite 40s;
-} */
+    top: 943px;
+    left: calc(61vw - 90px);
+}
+
+#whiteboardProject {
+    position: absolute;
+    top: 1123px;
+    left: calc(33vw - 90px);
+}
+
+#welcomeRect {
+    background-color: #215e56;
+    width: 334px;
+    height: 255px;
+    position: absolute;
+    top: -112px;
+    left: calc(52vw - 168px);
+}
+
+#welcomeTitle {
+    font-family: "Mochiy Pop P One";
+    font-size: 64px;
+    color: #a2e8df;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: calc(48vw - 150px);
+}
+
+#aboutRect {
+    width: 480px;
+    height: 90px;
+    border: 4px dotted #f2af92;
+    position: absolute;
+    top: 212px;
+    left: calc(44vw - 240px);
+}
+
+#aboutTitle {
+    font-family: "Monoton";
+    font-size: 40px;
+    color: #eb8357;
+    width: 300px;
+    position: absolute;
+    top: 215px;
+    left: calc(54vw - 150px);
+}
+
+#aboutText {
+    font-family: "Mansalva";
+    font-size: 20px;
+    color: white;
+    width: 400px;
+    position: absolute;
+    top: 354px;
+    left: calc(48vw - 200px);
+}
+
+#projectsRect {
+    width: 522px;
+    height: 112px;
+    border: 6px dashed #f47e9b;
+    position: absolute;
+    top: 612px;
+    left: calc(60vw - 261px);
+}
+
+#projectsTitle {
+    font-family: "Martian Mono";
+    font-size: 34px;
+    color: #e14167;
+    width: 300px;
+    position: absolute;
+    top: 614px;
+    left: calc(52vw - 150px);
+}

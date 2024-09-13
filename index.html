@@ -5,56 +5,54 @@
         <link rel="icon" href="images/empty-square.svg" type="svg" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-        <link rel="stylesheet" href="global.css" />
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <header>
+        <!-- <header>
             <a href="pages/about/index.html">
                 <button class="headerBtn" id="actionBtn">About</button>
             </a>
-            <div class="headerDivider"></div>
-            <button class="headerBtn" id="menuBtn">
-                <img src="images/menu-triangle.png" id="menuBtnIcon" />
-            </button>
-            <div class="container" id="dropdownMenu" hidden>
-                <h1>Pages</h1>
-                <nav>
-                    <p><a href="pages/about/index.html">About</a></p>
-                    <p><a href="pages/projects/index.html">Projects</a></p>
-                    <p><a href="pages/contact/index.html">Contact</a></p>
-                </nav>
+        </header> -->
+
+        <div id="welcomeRect"></div>
+        <h1 id="welcomeTitle">Welcome!</h1>
+
+        <div id="aboutRect"></div>
+        <h2 id="aboutTitle">About _ Me</h2>
+        <ul id="aboutText">
+            <li><p>Name: Ian Gillette</p></li>
+            <li><p>Status: Unknown</p></li>
+            <li><p>Interests: Coding, Design, Drawing, 3D Art</p></li>
+        </ul>
+
+        <div id="projectsRect"></div>
+        <h2 id="projectsTitle">Projects();</h2>
+
+        <a href="pages/dice_roller/index.html" target="_blank">
+            <div class="project" id="diceProject">
+                <img class="projectIcon" src="images/dice/purple/Dice1.svg" />
+                <br />
+                <p class="projectLabel">Dice Roller</p>
             </div>
-        </header>
-
-        <div class="projectGrid" id="projectGrid">
-            <a href="pages/dice_roller/index.html">
-                <div class="project" id="diceProject">
-                    <img
-                        class="projectIcon"
-                        src="images/dice/purple/Dice1.svg"
-                    />
-                    <br />
-                    <p class="projectLabel">Dice Roller</p>
-                </div>
-            </a>
-            <a href="pages/random_website/index.html">
-                <div class="project" id="randomProject">
-                    <img
-                        class="projectIcon"
-                        src="images/random.jpg"
-                        type="jpg"
-                    />
-                    <br />
-                    <p class="projectLabel">Random Website</p>
-                </div>
-            </a>
-        </div>
-
-        <!-- <div id="scrollContainer">
-            <img src="images/fun-scroll-effect.svg" type="svg" />
-        </div> -->
+        </a>
+        <a href="pages/random_website/index.html" target="_blank">
+            <div class="project" id="randomWebsiteProject">
+                <img class="projectIcon" src="images/random.jpg" type="jpg" />
+                <br />
+                <p class="projectLabel">Random Website</p>
+            </div>
+        </a>
+        <a href="pages/whiteboard/index.html" target="_blank">
+            <div class="project" id="whiteboardProject">
+                <img
+                    class="projectIcon"
+                    src="images/whiteboard-icon.png"
+                    type="jpg"
+                />
+                <br />
+                <p class="projectLabel">Whiteboard</p>
+            </div>
+        </a>
 
         <script src="index.js"></script>
     </body>

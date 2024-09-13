@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+    background-color: rgb(60, 60, 60);
+    font-family: monospace;
+}
+
+#stopwatchContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+
+    max-width: 400px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 10px;
+
+    padding: 8px;
+}
+
+#clock {
+    font-size: 48px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 105%;
+    text-align: center;
+}
+
+#stopwatchControls > button {
+    width: 90px;
+    font-family: "Arvo";
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 0px;
+    margin: 0px 4px;
+    /* transition: 50ms; */
+}
+#stopwatchControls > button:hover {
+    border: 2px solid white;
+    border-style: solid;
+}
+
+#startBtn {
+    background-color: #28e368;
+    border: 2px solid #28e368;
+}
+#startBtn:active {
+    background-color: #37b763;
+}
+
+#stopBtn {
+    background-color: #e32828;
+    border: 2px solid #e32828;
+}
+#stopBtn:active {
+    background-color: #b73737;
+}
+
+#resetBtn {
+    background-color: #2846e3;
+    border: 2px solid #2846e3;
+}
+#resetBtn:active {
+    background-color: #373cb7;
+}
