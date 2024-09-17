@@ -11,125 +11,128 @@ body {
     margin: 0;
 }
 
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    max-width: var(--content-width);
+    margin: 0px auto;
+    padding: 0px 10px;
+    padding-top: 50px;
+}
+
 a {
     text-decoration: none;
 }
 
 .project {
+    display: flex;
+    justify-content: center;
     font-family: "Martian Mono";
     background-color: var(--container-bg-color);
     color: black;
     padding: 0;
     box-shadow: var(--shadow);
     border: 2px thick;
-    border-radius: 0px;
-    margin: auto 15px;
-
-    width: 180px;
-    height: 240px;
-
+    border-radius: 8px;
+    margin: 15px;
     transition: scale 0.2s ease;
 }
 
-.project:hover {
-    scale: 1.1;
-}
-
-.projectIcon {
-    margin: 35px;
-    margin-bottom: 0px;
-    width: 110px;
-    height: 110px;
-    border-radius: 8px;
-}
-
-.projectLabel {
+.projectAbout {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    margin-left: 0px;
+    text-align: left;
     font-size: 1em;
     display: flex;
     justify-content: center;
 }
 
-#diceProject {
-    position: absolute;
-    top: 800px;
-    left: calc(40vw - 90px);
+.projectAbout h3 {
+    margin: 0px;
+    margin-bottom: 5px;
 }
 
-#randomWebsiteProject {
-    position: absolute;
-    top: 943px;
-    left: calc(61vw - 90px);
+.projectAbout p {
+    margin: 0px;
 }
 
-#whiteboardProject {
-    position: absolute;
-    top: 1123px;
-    left: calc(33vw - 90px);
+.project:hover {
+    scale: 1.05;
 }
 
-#welcomeRect {
-    background-color: #215e56;
-    width: 334px;
-    height: 255px;
-    position: absolute;
-    top: -112px;
-    left: calc(52vw - 168px);
+.projectIcon {
+    margin: 10px;
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
 }
 
 #welcomeTitle {
+    display: flex;
     font-family: "Mochiy Pop P One";
     font-size: 64px;
-    color: #a2e8df;
-    width: 300px;
-    position: absolute;
-    top: 0px;
-    left: calc(48vw - 150px);
+    color: #215e56;
+    /* color: #a2e8df; */
+    text-align: center;
+    /* border: 6px solid #215e56; */
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 50px 0px;
 }
 
-#aboutRect {
-    width: 480px;
-    height: 90px;
-    border: 4px dotted #f2af92;
-    position: absolute;
-    top: 212px;
-    left: calc(44vw - 240px);
+#aboutContent {
+    background-color: rgb(90, 90, 90);
+    border: 6px solid #eb8357;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px auto;
+    margin-bottom: 50px;
 }
 
 #aboutTitle {
     font-family: "Monoton";
     font-size: 40px;
-    color: #eb8357;
-    width: 300px;
-    position: absolute;
-    top: 215px;
-    left: calc(54vw - 150px);
+    color: rgb(245, 141, 97);
+    background-color: rgb(70, 70, 70);
+    border-radius: 8px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    /* text-shadow: #f2af92 1px 0 10px; */
 }
 
 #aboutText {
     font-family: "Mansalva";
     font-size: 20px;
-    color: white;
-    width: 400px;
-    position: absolute;
-    top: 354px;
-    left: calc(48vw - 200px);
+    color: rgb(243, 243, 243);
+    margin-right: 15px;
+    margin-left: 5px;
 }
 
-#projectsRect {
-    width: 522px;
-    height: 112px;
-    border: 6px dashed #f47e9b;
-    position: absolute;
-    top: 612px;
-    left: calc(60vw - 261px);
+#projectsContent {
+    background-color: rgb(90, 90, 90);
+    max-width: 610px;
+    border: 6px solid #e14167;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0px auto;
+    margin-bottom: 50px;
 }
 
 #projectsTitle {
     font-family: "Martian Mono";
     font-size: 34px;
     color: #e14167;
-    width: 300px;
-    position: absolute;
-    top: 614px;
-    left: calc(52vw - 150px);
+    color: rgb(235, 75, 113);
+    /* color: #f47e9b; */
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 5px;
 }

@@ -13,46 +13,72 @@
                 <button class="headerBtn" id="actionBtn">About</button>
             </a>
         </header> -->
+        <div id="content">
+            <!-- <h1 id="welcomeTitle">Welcome!</h1> -->
 
-        <div id="welcomeRect"></div>
-        <h1 id="welcomeTitle">Welcome!</h1>
-
-        <div id="aboutRect"></div>
-        <h2 id="aboutTitle">About _ Me</h2>
-        <ul id="aboutText">
-            <li><p>Name: Ian Gillette</p></li>
-            <li><p>Status: Unknown</p></li>
-            <li><p>Interests: Coding, Design, Drawing, 3D Art</p></li>
-        </ul>
-
-        <div id="projectsRect"></div>
-        <h2 id="projectsTitle">Projects();</h2>
-
-        <a href="pages/dice_roller/index.html" target="_blank">
-            <div class="project" id="diceProject">
-                <img class="projectIcon" src="images/dice/purple/Dice1.svg" />
-                <br />
-                <p class="projectLabel">Dice Roller</p>
+            <div id="aboutContent">
+                <h2 id="aboutTitle">About _ Me</h2>
+                <ul id="aboutText">
+                    <li><p>Name: Ian Gillette</p></li>
+                    <li><p>Status: Unknown</p></li>
+                    <li>
+                        <p>
+                            Interests: Coding, Computers, Graphic Design,
+                            Drawing, 3D Art, Game Development
+                        </p>
+                    </li>
+                </ul>
             </div>
-        </a>
-        <a href="pages/random_website/index.html" target="_blank">
-            <div class="project" id="randomWebsiteProject">
-                <img class="projectIcon" src="images/random.jpg" type="jpg" />
-                <br />
-                <p class="projectLabel">Random Website</p>
+
+            <div id="projectsContent">
+                <h2 id="projectsTitle">Projects();</h2>
+
+                <a href="pages/dice_roller/index.html" target="_blank">
+                    <div class="project" id="diceProject">
+                        <img
+                            class="projectIcon"
+                            src="images/dice/purple/Dice1.svg"
+                        />
+                        <div class="projectAbout">
+                            <h3>Dice Roller</h3>
+                            <br />
+                            <p>Cool dice roller for 6 sided dice.</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="pages/random_website/index.html" target="_blank">
+                    <div class="project" id="randomWebsiteProject">
+                        <img
+                            class="projectIcon"
+                            src="images/random.jpg"
+                            type="jpg"
+                        />
+                        <div class="projectAbout">
+                            <h3>Random Website</h3>
+                            <p>
+                                Project is inspired by <i>The Useless Web</i>.
+                            </p>
+                        </div>
+                    </div>
+                </a>
+                <a href="pages/whiteboard/index.html" target="_blank">
+                    <div class="project" id="whiteboardProject">
+                        <img
+                            class="projectIcon"
+                            src="images/whiteboard-icon.png"
+                            type="jpg"
+                        />
+                        <div class="projectAbout">
+                            <h3>Whiteboard</h3>
+                            <p>
+                                This is to practice working with the html canvas
+                                tag.
+                            </p>
+                        </div>
+                    </div>
+                </a>
             </div>
-        </a>
-        <a href="pages/whiteboard/index.html" target="_blank">
-            <div class="project" id="whiteboardProject">
-                <img
-                    class="projectIcon"
-                    src="images/whiteboard-icon.png"
-                    type="jpg"
-                />
-                <br />
-                <p class="projectLabel">Whiteboard</p>
-            </div>
-        </a>
+        </div>
 
         <script src="index.js"></script>
     </body>
