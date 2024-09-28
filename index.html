@@ -15,73 +15,77 @@
                 <button class="headerBtn">Funny</button>
             </nav>
         </header>
-        <div id="content">
-            <!-- <h1 id="welcomeTitle">Welcome!</h1> -->
 
-            <div id="aboutContent">
-                <h1 id="aboutTitle">About _ Me</h1>
-                <ul id="aboutText">
-                    <li><p>Name: Ian Gillette</p></li>
-                    <li><p>Status: Unknown</p></li>
-                    <li>
-                        <p>
-                            Interests: Coding, Computers, Graphic Design,
-                            Drawing, 3D Art, Game Development
-                        </p>
-                    </li>
-                </ul>
-            </div>
-
-            <div id="projectsContent">
-                <h1 id="projectsTitle">Projects();</h1>
-
-                <a href="pages/dice_roller/index.html" target="_blank">
-                    <div class="project" id="diceProject">
-                        <img
-                            class="projectIcon"
-                            src="images/dice/purple/Dice1.svg"
-                        />
-                        <div class="projectAbout">
-                            <h3>Dice Roller</h3>
-                            <br />
-                            <p>Cool dice roller for 6 sided dice.</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="pages/random_website/index.html" target="_blank">
-                    <div class="project" id="randomWebsiteProject">
-                        <img
-                            class="projectIcon"
-                            src="images/random.jpg"
-                            type="jpg"
-                        />
-                        <div class="projectAbout">
-                            <h3>Random Website</h3>
-                            <p>
-                                Project is inspired by <i>The Useless Web</i>.
-                            </p>
-                        </div>
-                    </div>
-                </a>
-                <a href="pages/whiteboard/index.html" target="_blank">
-                    <div class="project" id="whiteboardProject">
-                        <img
-                            class="projectIcon"
-                            src="images/whiteboard-icon.png"
-                            type="jpg"
-                        />
-                        <div class="projectAbout">
-                            <h3>Whiteboard</h3>
-                            <p>
-                                This is to practice working with the html canvas
-                                tag.
-                            </p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+        <!-- Welcome -->
+        <div class="content" id="welcomeContent">
+            <h1 id="welcomeText"></h1>
+            <div id="cursor"></div>
         </div>
 
-        <script src="index.js"></script>
+        <!-- About -->
+        <div class="content" id="aboutContent">
+            <h1 id="aboutTitle">About _ Me</h1>
+            <ul id="aboutText">
+                <li><p>Name: Ian Gillette</p></li>
+                <li><p>Status: Unknown</p></li>
+                <li>
+                    <p>
+                        Interests: Coding, Computers, Graphic Design, Drawing,
+                        3D Art, Game Development
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Projects -->
+        <div class="content" id="projectsContent">
+            <h1 id="projectsTitle">Projects();</h1>
+
+            <a href="pages/dice_roller/index.html" target="_blank">
+                <div class="project" id="diceProject">
+                    <img
+                        class="projectIcon"
+                        src="images/dice/purple/Dice1.svg"
+                    />
+                    <div class="projectAbout">
+                        <h3>Dice Roller</h3>
+                        <br />
+                        <p>Cool dice roller for 6 sided dice.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="pages/random_website/index.html" target="_blank">
+                <div class="project" id="randomWebsiteProject">
+                    <img
+                        class="projectIcon"
+                        src="images/random.jpg"
+                        type="jpg"
+                    />
+                    <div class="projectAbout">
+                        <h3>Random Website</h3>
+                        <p>Project is inspired by <i>The Useless Web</i>.</p>
+                    </div>
+                </div>
+            </a>
+            <a href="pages/whiteboard/index.html" target="_blank">
+                <div class="project" id="whiteboardProject">
+                    <img
+                        class="projectIcon"
+                        src="images/whiteboard-icon.png"
+                        type="jpg"
+                    />
+                    <div class="projectAbout">
+                        <h3>Whiteboard</h3>
+                        <p>
+                            This is to practice working with the html canvas
+                            tag.
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div id="content"></div>
+
+        <script src="script.js"></script>
     </body>
 </html>

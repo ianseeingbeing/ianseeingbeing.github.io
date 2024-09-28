@@ -30,10 +30,10 @@ header nav {
     font-family: var(--font-sub-heading);
     font-size: var(--font-size-sub-heading);
     color: white;
+    width: 100px;
     background-color: transparent;
-    margin: 0px 14px;
-    margin-top: 20px;
-    padding: 10px 15px;
+    margin: 10px 15px;
+    padding: 10px 0px;
     border-radius: 10px;
     border: 2px solid transparent;
     transition: 100ms;
@@ -44,7 +44,54 @@ header nav {
     background-color: rgba(200, 200, 200, 0.5);
 }
 
-#content {
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+    }
+    41% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        width: 10px;
+    }
+    50% {
+        width: 100px;
+    }
+    100% {
+        width: 300px;
+    }
+}
+
+#welcomeContent {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#welcomeText {
+    margin: 0px;
+}
+
+#cursor {
+    background-color: white;
+    height: 43px;
+    width: 1em;
+    animation: blink 1.6s infinite;
+}
+
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,7 +100,6 @@ header nav {
     max-width: var(--content-width);
     margin: 0px auto;
     padding: 0px 10px;
-    padding-top: 50px;
 }
 
 a {
@@ -120,7 +166,7 @@ a {
     border-radius: 8px;
     text-align: center;
     margin: 5px;
-    padding: 10px;
+    padding: 10px 50px;
     /* text-shadow: #f2af92 1px 0 10px; */
 }
 
@@ -149,5 +195,5 @@ a {
     text-align: center;
     border-radius: 8px;
     margin: 5px;
-    padding: 10px;
+    padding: 10px 50px;
 }
