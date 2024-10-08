@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Image Caroucel</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Image Caroucel</h1>
+        <div id="imageCaroucel">
+            <img
+                class="caroucelControls"
+                id="caroucelLeftControl"
+                src="./angle-left-solid.svg"
+            />
+            <div id="imageContainer">
+                <img class="caroucelImg" id="img1" src="./cradle1.jpg" />
+                <img class="caroucelImg" id="img2" src="./cradle2.jpg" hidden />
+                <img class="caroucelImg" id="img3" src="./cradle3.jpg" hidden />
+            </div>
+            <img
+                class="caroucelControls"
+                id="caroucelRightControl"
+                src="./angle-right-solid.svg"
+            />
+        </div>
+        <p id="currentImageText">Cradle: Volume 1</p>
+
+        <script src="script.js"></script>
+    </body>
+</html>
